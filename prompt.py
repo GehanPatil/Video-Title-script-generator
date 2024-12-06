@@ -6,6 +6,7 @@ from langchain.chains import LLMChain, SimpleSequentialChain,SequentialChain
 from langchain.prompts import PromptTemplate
 from langchain import HuggingFaceHub
 from langchain.memory import ConversationBufferMemory
+from langchain_community.llms import HuggingFaceHub
 
 load_dotenv()
 
